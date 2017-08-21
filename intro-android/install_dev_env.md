@@ -56,7 +56,7 @@ div.polaroid {
 2. 사용약관 동의 후에 Android Studio 다운로드
 
 	<div class="polaroid">	
-		<img src="figure/agreement.jpg">
+		<img src="figure/agreement.JPG">
 	</div>	
 
 3. 다운로드한 파일을 더블클릭하여 설치
