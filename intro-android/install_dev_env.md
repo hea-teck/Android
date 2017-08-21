@@ -53,7 +53,7 @@ div.polaroid {
 		<img src="figure/android_studio.jpeg">
 	</div>	
 	
-2. 사용약관 동의 후에 Android Studio 다운로드
+2. 사용약관 동의 후에 Android Studio 다운로드 
 
 	<div class="polaroid">	
 		<img src="figure/agreement.JPG">
@@ -66,24 +66,31 @@ div.polaroid {
 	</video>
 	
 ## <a name="sdk_tools_plaforms"></a>3. SDK Manager를 이용하여 최신 SDK 도구와 플랫폼을 설치
+
 1. SDK Manager 실행시키기
+
 	다음 두 가지 방법 중 하나를 이용하여 SDK Manger를 실행시킨다.
-	- Android Studio 시작 화면 하단의 [**Configure**] 클릭 후, 메뉴에서 [**SDK Manager**] 선택
-	
-	<div class="polaroid">	
-		<img src="figure/android_studio_main.jpg">
-	</div>	
+
+	- Android Studio 시작 화면 하단의 [**Configure**] 클릭 후, 메뉴에서 [**SDK Manager**] 선택	
+		<div class="polaroid">	
+			<img src="figure/android_studio_main.jpg">
+		</div>	
 
 	- Android Studio 프로젝트 화면에서 [*SDK Manger 아이콘*] 클릭 
+		<div class="polaroid">	
+			<img src="figure/sdk-manger-icon.jpg">
+		</div>	
+	
 2. **SDK Platforms** 탭과 **SDK Tools** 탭에서 필요한 플랫폼과 도구를 설치
 	SDK Manager는 앱 개발에 필요한 SDK 플랫폼, SDK 도구, 기타 구성요소를 제공
+	
 	- **SDK Platforms** 탭에서 *Android 플랫폼 버전*과 *시스템 이미지*를 최소 하나 이상 설치해야 함
 	
 		<div class="polaroid">	
 			<img src="figure/sdk_manager_platforms.gif">
 		</div>	
 	
-	- **SDK Tools** 탭에서 *필수 SDK 도구*와 *권장 지원 리포지토리* 설치
+	- </a>**SDK Tools** 탭에서 *필수 SDK 도구*와 *권장 지원 리포지토리* 설치
 	
 		<div class="polaroid">	
 			<img src="figure/sdk_manager_tools.jpg">
