@@ -36,12 +36,12 @@ div.polaroid {
 ###나. **Android Project**를 위한 새로운 **git** 저장소 생성
 1. **GitHub Desktop** 시작화면에서 **Create new repository** 클릭
 	<div class="polaroid">
-		<img src="figure/git/github-desktop-new-repository.jpg">
+		<img src="figure/github-desktop-new-repository.JPG"> 
 	</div>	
 
 	[**다른 방법**] [**File**] 메뉴에서 [**New respository..**] 클릭
 	<div class="polaroid">
-		<img src="figure/create-local-repository-windows.png">
+		<img src="figure/create-local-repository-windows.PNG">
 	</div>	
 	
 2. 다음 정보 입력 및 선택 후 [**Create repository**] 선택
@@ -49,7 +49,7 @@ div.polaroid {
 	- [**Local path**]: 저장소의 위치 (예, *C:\Users\kwlee\AndroidStudioProjects*)
 	- [Git ignore]: **Android** 선택 (Git에서 버전관리되지 않는 대상 파일들을 설정한 것)
 	<div class="polaroid">
-		<img src="figure/create-new-repository-wizard.png">
+		<img src="figure/create-new-repository-wizard.PNG">
 	</div>
 3. 새로운 **git** 저장소(예, *C:\Users\kwlee\AndroidStudioProjects\HelloAndroid*)에 .git 폴더 및 .gitattributes, .gitignore 파일이 생성되어 있음을 확인할 수 있다.
 
