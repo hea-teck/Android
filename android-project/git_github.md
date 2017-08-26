@@ -22,8 +22,8 @@ div.polaroid {
 ## 1. **Android Project**의 버전관리
 **Android Project**의 버전관리 시나리오는 다음과 같다.
 
-1. [**Android Project**를 위한 새로운 **git** 저장소 생성](#1.1)
-2. [**Android Project**의 일부 파일을 수정 후, 로컬 **git** 저장소에 커밋(commit)](#1.2)
+1. [**Android Project**를 위한 새로운 지역 **git** 저장소 생성](#1.1)
+2. [**Android Project**의 일부 파일을 수정 후, 지역 **git** 저장소에 커밋(commit)](#1.2)
 3. [**git** 저장소를 이전 커밋(commit)으로 되돌림 (*필요한경우*)](#1.3) 
 4. [원격 **git** 저장소(**GitHub**)에 푸시(push)](#1.4)
 
@@ -33,7 +33,7 @@ div.polaroid {
 - [**GitHub** 계정 만들기](create-github-account.html)  
 
 <a name="1.1"></a>
-###나. **Android Project**를 위한 새로운 **git** 저장소 생성
+###나. **Android Project**를 위한 새로운 지역 **git** 저장소 생성
 1. **GitHub Desktop** 시작화면에서 **Create new repository** 클릭
 	<div class="polaroid">
 		<img src="figure/github-desktop-new-repository.JPG"> 
@@ -113,7 +113,7 @@ div.polaroid {
 
 1. **kwanulee/HelloAndroid** 저장소의 Collaborator로 *kwanu70*을 추가 (참조. [가. **GitHub** 저장소에 Collaborator 추가하기](#2.1))
 2. *kwanu70*은 **kwanulee/HelloAndroid** 원격 저장소의 파일을 지역 **git** 저장소로 복제 (참조. [나. **GitHub** 저장소를 복제하기](#2.2))
-3. *kwanu70*은 지역 **git** 저장소로 복제된 파일을 변경/커밋하고, 이를 **kwanulee/HelloAndroid** 저장소와 동기화  (참조. [다.  복제된 지역 **git** 저장소와 공유되고 있는 **GitHub** 저장소를 동기화하기](#2.3))
+3. *kwanu70*은 지역 **git** 저장소로 복제된 파일을 변경/커밋하고, 이를 **kwanulee/HelloAndroid** 저장소와 동기화  (참조. [다.  복제된 **GitHub** 저장소를 수정하고 동기화하기](#2.3))
 4.  *kwanulee*는 자신의 지역 **git** 저장소를 **kwanulee/HelloAndroid** 원격 저장소의 최신 상태로 동기화
 
 <a name="2.1"></a>
@@ -152,7 +152,7 @@ div.polaroid {
 	</div>	
 
 <a name="2.3"></a>
-### 다. 복제된 지역 **git** 저장소와 공유되고 있는 **GitHub** 저장소를 동기화하기
+### 다. 복제된 **GitHub** 저장소를 수정하고 동기화하기
 1. AndroidStudio에서 복제된 *HelloAndroidCloned* 프로젝트를 열고, activity_main.xml 파일을 변경
 	<code>
 
