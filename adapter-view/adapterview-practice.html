@@ -5,7 +5,7 @@
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-<title>index</title>
+<title>adapterview-practice</title>
 
 
 <style type="text/css">
@@ -328,95 +328,79 @@ kbd {
 
 <body>
 
-<h1 id="toc_0">안드로이드 프로그래밍 강의자료</h1>
+<style> 
+div.polaroid {
+    width: 200px;
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2), 0 16px 30px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin-bottom: 0.5cm;
+}
+div.polaroid2 {
+    width: 500px;
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2), 0 16px 30px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin-bottom: 0.5cm;
+}
+</style>
 
-<table>
-<thead>
-<tr>
-<th>주</th>
-<th>강의 내용</th>
-<th>실습</th>
-</tr>
-</thead>
+<h1 id="toc_0">어댑터 뷰  실습</h1>
 
-<tbody>
-<tr>
-<td>1주</td>
-<td><ul> <li> <a href="intro-android/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C%EC%86%8C%EA%B0%9C.pdf">안드로이드 소개</a> <li> <a href="intro-android/install_dev_env.html">개발환경 설치</a> <li> <a href="intro-android/start-android-project.html">안드로이드 앱 시작하기</a> </ul></td>
-<td><a href="intro-android/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C_%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0_%EC%8B%A4%EC%8A%B5.html">안드로이드 시작하기 실습</a></td>
-</tr>
-<tr>
-<td>2주</td>
-<td><ul> <li><a href="android-project/android-project-basic.pdf">안드로이드 프로젝트 기본</a> <li> <a href="android-project/git_github.html">git/GitHub를 이용한 프로젝트 관리</a> </ul></td>
-<td><a href="android-project/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B4%80%EB%A6%AC_%EC%8B%A4%EC%8A%B5.html">안드로이드 프로젝트 관리 실습</a></td>
-</tr>
-<tr>
-<td>3주</td>
-<td><ul> <li> <a href="android-ui/ui-design-overview.pdf">UI 설계 개요</a> <li> <a href="android-ui/widget.pdf">위젯</a> <li> <a href="android-ui/layouts.pdf">레이아웃</a> <li> <a href="android-ui/margin-padding-gravity.pdf">Marging/Padding/Gravity</a> <li><a href="android-ui/event-handling.pdf">이벤트 처리</a></td>
-<td><a href="android-ui/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C_UI_%EC%8B%A4%EC%8A%B5.html">안드로이드 UI 실습</a></td>
-</tr>
-<tr>
-<td>4주</td>
-<td><ul> <li> <a href="adapter-view/adapterview-overview.pdf">어댑터뷰 개요</a> <li><a href="adapter-view/listview.pdf">리스트뷰</a> <li><a href="adapter-view/gridview.pdf">그리드뷰</a> <li><a href="adapter-view/custom-adapterview.pdf">커스텀 어댑터뷰</a></td>
-<td><a href="adapter-view/adapterview-practice.html">어댑터 뷰 실습</a></td>
-</tr>
-<tr>
-<td>5주</td>
-<td><ul> <li> 액티비티 <li>인텐트 <li>생명주기 <li> 백스택</td>
-<td>실습5</td>
-</tr>
-<tr>
-<td>6주</td>
-<td><ul> <li> 프레그먼트 기본 <li> 동적 프래그먼트 <li> 화면방향과 프래그먼트</td>
-<td>실습6</td>
-</tr>
-<tr>
-<td>7주</td>
-<td><ul> <li> 컨텐츠 프로바이더 <li> 파일 실습</td>
-<td>실습7</td>
-</tr>
-<tr>
-<td>8주</td>
-<td>중간고사</td>
-<td></td>
-</tr>
-<tr>
-<td>9주</td>
-<td><ul> <li> 프레퍼런스 <li> SQLite</td>
-<td>실습8</td>
-</tr>
-<tr>
-<td>10주</td>
-<td><ul> <li> 서비스 <li> 멀티미디어</td>
-<td>실습9</td>
-</tr>
-<tr>
-<td>11주</td>
-<td><ul> <li> 위치기반 서비스 <li> 지도</td>
-<td>실습10</td>
-</tr>
-<tr>
-<td>12주</td>
-<td><ul> <li> 애니메이션 <li> 그래픽 <li> 스레드</td>
-<td>실습11</td>
-</tr>
-<tr>
-<td>13주</td>
-<td><ul> <li> 브로드캐스트 리시버 <li> 배터리 상태 표시 <li> SMS</td>
-<td>실습12</td>
-</tr>
-<tr>
-<td>14주</td>
-<td>기말고사</td>
-<td></td>
-</tr>
-<tr>
-<td>15주</td>
-<td>텀 프로젝트 발표</td>
-<td></td>
-</tr>
-</tbody>
-</table>
+<ul>
+<li>이번 실습은 아래와 같은 커스텀 리스트 뷰를 완성하는 것임.</li>
+<li><p>리스트의 각 항목은 여러분이 수강하는 강좌 정보(강좌이름, 시간, 강의실)를 표시하는 것임</p>
+
+<div class="polaroid">
+        <img src="figure/practice-result.png" width="200"> 
+</div>
+
+<p>그림1. 실습 결과 <a name="fig1"></a></p></li>
+</ul>
+
+<h2 id="toc_1">1. 커스텀 리스트 뷰의 한 항목을 위한 UI 레이아웃을 구성</h2>
+
+<ul>
+<li><p>다음 그림과 같이 리스트의 한 항목을 위한 레이아웃 (<strong>layout/item.xml</strong>)을 정의하라.
+<div class="polaroid2">
+        <img src="figure/item-layout.png"> 
+</div></p></li>
+<li><p><strong>LinearLayout</strong>과 <strong>TextView</strong>의 다양한 속성 (<strong>layout_gravity</strong>, <strong>layout_weight</strong>, <strong>gravity</strong>, <strong>textColor</strong>, <strong>textSize</strong>, <strong>padding</strong> 등)을 활용하여 최대한 <a href="#fig1">그림1</a>에서 보이는 것처럼 설정하라.</p></li>
+</ul>
+
+<p>(참고자료) 
+<a href="https://github.com/kwanulee/Android/blob/master/examples/CustomAdapterView/app/src/main/res/layout/item.xml">https://github.com/kwanulee/Android/blob/master/examples/CustomAdapterView/app/src/main/res/layout/item.xml</a></p>
+
+<h2 id="toc_2">2. 항목의 데이터를 관리하고, 항목의 뷰를 반환하는 커스텀 어댑터 클래스 정의</h2>
+
+<ul>
+<li>강좌이름, 시간, 강의실 정보로 구성되는 항목 데이터 클래스 (<strong>MyItem</strong>) 를 정의하라. </li>
+<li>항목 데이터를 관리하며, 어댑터 뷰에 항목 뷰를 제공해주는 커스텀 어탭터 클래스 (<strong>MyAdapter</strong>)를 정의하라</li>
+</ul>
+
+<p>(참고자료)
+<a href="https://github.com/kwanulee/Android/blob/master/examples/CustomAdapterView/app/src/main/java/com/kwanwoo/android/customadapterview/MyAdapter.java">https://github.com/kwanulee/Android/blob/master/examples/CustomAdapterView/app/src/main/java/com/kwanwoo/android/customadapterview/MyAdapter.java</a></p>
+
+<h2 id="toc_3">3. 작성된 커스텀 어탭터 클래스 (MyAdapter)를 ListView에서 사용</h2>
+
+<ul>
+<li><strong>ListView</strong> 하나 만으로 구성된 화면 레이아웃을 정의</li>
+<li><strong>MainActivity</strong> 클래스에서 <strong>ListView</strong>에 표시될 항목 데이터를 준비하고, <strong>MyAdapter</strong> 객체를 생성 시킨후,  이를 <strong>ListView</strong>에 설정하여 <a href="#fig1">그림1</a>과 같은 결과를 출력시킨다. </li>
+<li>ListView의 한 항목을 클릭시에 클릭된 항목의 내용을 토스트 메시지로 표시</li>
+</ul>
+
+<p>(참고자료) 
+<a href="https://github.com/kwanulee/Android/blob/master/examples/CustomAdapterView/app/src/main/java/com/kwanwoo/android/customadapterview/MainActivity.java">https://github.com/kwanulee/Android/blob/master/examples/CustomAdapterView/app/src/main/java/com/kwanwoo/android/customadapterview/MainActivity.java</a></p>
+
+<h2 id="toc_4">4. ListView의 항목 사이의 구분자를 설정하여, 리스트 뷰의 가시성을 개선</h2>
+
+<ul>
+<li>ListView의 구분자를 설정하는 방법:</li>
+</ul>
+
+<div><pre><code class="language-java">    listView.setDivider(new ColorDrawable(Color.RED));
+    listView.setDividerHeight(5);</code></pre></div>
+
+<p>(참고자료) 
+<a href="https://github.com/kwanulee/Android/blob/master/examples/ListView/app/src/main/java/com/kwanwoo/android/listview/MainActivity.java#L30-L31">https://github.com/kwanulee/Android/blob/master/examples/ListView/app/src/main/java/com/kwanwoo/android/listview/MainActivity.java#L30-L31</a></p>
 
 
 
