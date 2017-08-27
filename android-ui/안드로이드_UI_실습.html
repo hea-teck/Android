@@ -5,7 +5,7 @@
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-<title>index</title>
+<title>안드로이드_UI_실습</title>
 
 
 <style type="text/css">
@@ -328,95 +328,80 @@ kbd {
 
 <body>
 
-<h1 id="toc_0">안드로이드 프로그래밍 강의자료</h1>
+<style> 
+div.polaroid {
+    width: 200px;
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2), 0 16px 30px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin-bottom: 0.5cm;
+}
+</style>
 
-<table>
-<thead>
-<tr>
-<th>주</th>
-<th>강의 내용</th>
-<th>실습</th>
-</tr>
-</thead>
+<h1 id="toc_0">안드로이드 UI 실습</h1>
 
-<tbody>
-<tr>
-<td>1주</td>
-<td><ul> <li> <a href="intro-android/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C%EC%86%8C%EA%B0%9C.pdf">안드로이드 소개</a> <li> <a href="intro-android/install_dev_env.html">개발환경 설치</a> <li> <a href="intro-android/start-android-project.html">안드로이드 앱 시작하기</a> </ul></td>
-<td><a href="intro-android/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C_%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0_%EC%8B%A4%EC%8A%B5.html">안드로이드 시작하기 실습</a></td>
-</tr>
-<tr>
-<td>2주</td>
-<td><ul> <li><a href="android-project/android-project-basic.pdf">안드로이드 프로젝트 기본</a> <li> <a href="android-project/git_github.html">git/GitHub를 이용한 프로젝트 관리</a> </ul></td>
-<td><a href="android-project/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B4%80%EB%A6%AC_%EC%8B%A4%EC%8A%B5.html">안드로이드 프로젝트 관리 실습</a></td>
-</tr>
-<tr>
-<td>3주</td>
-<td><ul> <li> <a href="android-ui/ui-design-overview.pdf">UI 설계 개요</a> <li> <a href="android-ui/widget.pdf">위젯</a> <li> <a href="android-ui/layouts.pdf">레이아웃</a> <li> <a href="android-ui/margin-padding-gravity.pdf">Marging/Padding/Gravity</a> <li><a href="android-ui/event-handling.pdf">이벤트 처리</a></td>
-<td><a href="android-ui/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C_UI_%EC%8B%A4%EC%8A%B5.html">안드로이드 UI 실습</a></td>
-</tr>
-<tr>
-<td>4주</td>
-<td><ul> <li> 어댑터뷰 개요 <li>리스트뷰 <li>그리드뷰 <li>커스텀뷰</td>
-<td>실습4</td>
-</tr>
-<tr>
-<td>5주</td>
-<td><ul> <li> 액티비티 <li>인텐트 <li>생명주기 <li> 백스택</td>
-<td>실습5</td>
-</tr>
-<tr>
-<td>6주</td>
-<td><ul> <li> 프레그먼트 기본 <li> 동적 프래그먼트 <li> 화면방향과 프래그먼트</td>
-<td>실습6</td>
-</tr>
-<tr>
-<td>7주</td>
-<td><ul> <li> 컨텐츠 프로바이더 <li> 파일 실습</td>
-<td>실습7</td>
-</tr>
-<tr>
-<td>8주</td>
-<td>중간고사</td>
-<td></td>
-</tr>
-<tr>
-<td>9주</td>
-<td><ul> <li> 프레퍼런스 <li> SQLite</td>
-<td>실습8</td>
-</tr>
-<tr>
-<td>10주</td>
-<td><ul> <li> 서비스 <li> 멀티미디어</td>
-<td>실습9</td>
-</tr>
-<tr>
-<td>11주</td>
-<td><ul> <li> 위치기반 서비스 <li> 지도</td>
-<td>실습10</td>
-</tr>
-<tr>
-<td>12주</td>
-<td><ul> <li> 애니메이션 <li> 그래픽 <li> 스레드</td>
-<td>실습11</td>
-</tr>
-<tr>
-<td>13주</td>
-<td><ul> <li> 브로드캐스트 리시버 <li> 배터리 상태 표시 <li> SMS</td>
-<td>실습12</td>
-</tr>
-<tr>
-<td>14주</td>
-<td>기말고사</td>
-<td></td>
-</tr>
-<tr>
-<td>15주</td>
-<td>텀 프로젝트 발표</td>
-<td></td>
-</tr>
-</tbody>
-</table>
+<h2 id="toc_1">1.  UI 레이아웃 구성</h2>
+
+<ul>
+<li><strong>LinearLayout</strong> 내에 <strong>LinearLayout</strong>을 2개 사용하고 각각의 <strong>weight</strong>를 1로 사용</li>
+<li>아래쪽 <strong>LinearLayout</strong>은 <strong>margin</strong>을 사용하여 빨간색 background인 부모 <strong>LinearLayout</strong>이 살짝 보이도록 한다.</li>
+<li><p>Button마다 적절한 <strong>layout_gravity</strong>를 사용하여 위치를 조정</p>
+
+<div class="polaroid">
+    <img src="figure/ui-layout.png"> 
+</div>  </li>
+</ul>
+
+<h2 id="toc_2">2. 버튼 클릭 이벤트 처리</h2>
+
+<ul>
+<li><strong>BUTTON 1</strong>과 <strong>BUTTON 2</strong>, <strong>BUTTON 3</strong>을 누르면 각각 &quot;<strong>Button 1 clicked</strong>&quot;, “<strong>Button 2 clicked</strong>”, “<strong>Button 3 clicked</strong>” 메시지 토스트를 보여주도록 한다.</li>
+<li>출력되는 메시지는 <strong>res/values/strings.xml</strong>에서 따로 정의한다.</li>
+</ul>
+
+<p>토스트 메시지:</p>
+
+<div><pre><code class="language-java">    Toast.makeText(getApplicationContext(), R.string.msg,   Toast.LENGTH_SHORT).show();</code></pre></div>
+
+<h2 id="toc_3">3. 버튼의 텍스트 변경</h2>
+
+<ul>
+<li><strong>BUTTON 4</strong>번을 누르면 <strong>BUTTON 1</strong>의 text를 “<strong>BUTTON One</strong>”과 “<strong>BUTTON 1</strong>”이 번갈아 바뀌도록 한다.</li>
+</ul>
+
+<p>버튼의 text를 바꾸는 방법:</p>
+
+<div><pre><code class="language-java">    Button btn = (Button)findViewById(R.id.button1);
+    btn.setText(&quot;Button One&quot;);</code></pre></div>
+
+<h2 id="toc_4">4. 레이아웃의 Gravity 변경</h2>
+
+<ul>
+<li><p><strong>BUTTON 5</strong>번을 누르면 이를 포함한 리니어 레이아웃의 <strong>gravity</strong> 값을 “<strong>CENTER_HORIZONTAL</strong>”로 설정하여 아래와 같이 바뀌도록 한다.</p>
+
+<div class="polaroid">
+    <img src="figure/layout-gravity.png"> 
+</div>  </li>
+</ul>
+
+<p>레이아웃의 gravity를 바꾸는 방법:</p>
+
+<div><pre><code class="language-java">    LinearLayout layout = (LinearLayout) findViewById(R.id.linearlayout2);
+    layout.setGravity(Gravity.CENTER_HORIZONTAL);</code></pre></div>
+
+<h2 id="toc_5">5. 레이아웃의 Padding 변경</h2>
+
+<ul>
+<li><p><strong>BUTTON 6</strong>번을 누르면 이를 포함한 리니어 레이아웃의 <strong>padding</strong> 값을 상하좌우 각각 <em>20</em>으로 설정하여 아래와 같이 바뀌도록 한다.</p>
+
+<div class="polaroid">
+    <img src="figure/layout-padding.png"> 
+</div>  </li>
+</ul>
+
+<p>레이아웃의 gravity를 바꾸는 방법:</p>
+
+<div><pre><code class="language-java">    LinearLayout layout = (LinearLayout) findViewById(R.id.linearlayout2);
+    layout.setPadding(20,20,20,20);</code></pre></div>
 
 
 
