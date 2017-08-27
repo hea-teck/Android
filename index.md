@@ -4,7 +4,7 @@
 --- | ------ |---
 1주 | <ul> <li> [안드로이드 소개](intro-android/안드로이드소개.pdf) <li> [개발환경 설치](intro-android/install_dev_env.html) <li> [안드로이드 앱 시작하기](intro-android/start-android-project.html) </ul> | [안드로이드 시작하기 실습](intro-android/안드로이드_시작하기_실습.html)
 2주	| <ul> <li>[안드로이드 프로젝트 기본](android-project/android-project-basic.pdf) <li> [git/GitHub를 이용한 프로젝트 관리](android-project/git_github.html) </ul> | [안드로이드 프로젝트 관리 실습](android-project/안드로이드_프로젝트_관리_실습.html)
-3주 | <ul> <li> 뷰와 뷰그룹 <li> 레이아웃 <li> 기본위젯 <li> Gravity와 Padding <li>이벤트 처리 방법 | 실습3
+	3주 | <ul> <li> UI 설계 개요 <li> 위젯 <li> 레이아웃 <li> 위젯 <li> Marging/Padding/Gravity <li>이벤트 처리 | 안드로이드 UI 실습
 4주 | <ul> <li> 어댑터뷰 개요 <li>리스트뷰 <li>그리드뷰 <li>커스텀뷰 | 실습4
 5주 | <ul> <li> 액티비티 <li>인텐트 <li>생명주기 <li> 백스택 | 실습5
 6주 | <ul> <li> 프레그먼트 기본 <li> 동적 프래그먼트 <li> 화면방향과 프래그먼트 | 실습6
