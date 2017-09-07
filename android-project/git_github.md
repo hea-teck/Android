@@ -74,7 +74,7 @@ div.polaroid {
 ###라. 지역 **git** 저장소를 이전 커밋(commit)으로 되돌림 (*필요한 경우*)
 다음은 현재 **git** 저장소를 이전 커밋 상태로 되돌리는 방법이다. 만약 여러 커밋을 되돌리고자 하는 경우에는 최신것부터 시작하여 순서대로 되돌리는 것이 좋다.
 
-1. **[GitHub Desktop]**: **Changes** 탭의 커밋 목록에서 되돌리고자 하는 커밋의 오른쪽 마우스버튼  클릭 후, 메뉴의 **Revert this commit** 클릭 
+1. **[GitHub Desktop]**: **History** 탭의 커밋 목록에서 되돌리고자 하는 커밋의 오른쪽 마우스버튼  클릭 후, 메뉴의 **Revert this commit** 클릭 
 	<div class="polaroid">
 		<img src="figure/revert-commit.PNG">
 	</div>
@@ -114,7 +114,7 @@ div.polaroid {
 1. **kwanulee/HelloAndroid** 저장소의 Collaborator로 *kwanu70*을 추가 (참조. [가. **GitHub** 저장소에 Collaborator 추가하기](#2.1))
 2. *kwanu70*은 **kwanulee/HelloAndroid** 원격 저장소의 파일을 지역 **git** 저장소로 복제 (참조. [나. **GitHub** 저장소를 복제하기](#2.2))
 3. *kwanu70*은 지역 **git** 저장소로 복제된 파일을 변경/커밋하고, 이를 **kwanulee/HelloAndroid** 저장소와 동기화  (참조. [다.  복제된 **GitHub** 저장소를 수정하고 동기화하기](#2.3))
-4.  *kwanulee*는 자신의 지역 **git** 저장소를 **kwanulee/HelloAndroid** 원격 저장소의 최신 상태로 동기화
+4.  *kwanulee*는 자신의 지역 **git** 저장소를 **kwanulee/HelloAndroid** 원격 저장소의 최신 상태로 동기화 (참조. [라.  원격 **GitHub** 저장소의 최신 내용을  지역 **git** 저장소로 가져오기](#2.4))
 
 <a name="2.1"></a>
 ### 가. **GitHub** 저장소에 Collaborator 추가하기
@@ -190,4 +190,14 @@ div.polaroid {
 		</div>
  
 
+### 라 . 원격 **GitHub** 저장소의 최신 내용을  지역 **git** 저장소로 가져오기
+1. **[GitHub Desktop]**의 **Fetch origin**을 클릭
+	<div class="polaroid">
+			<img src="figure/fetch-origin.png">
+		</div>
+
+2. 만약 원격 **GitHub** 저장소에서 지역 **git** 저장소로 가져올 커밋이 존재한다면, **Pull origin**을 클릭하여 원격 **GitHub** 저장소의  커밋을 가져온다.
+	<div class="polaroid">
+			<img src="figure/pull-origin.png">
+		</div>
 
