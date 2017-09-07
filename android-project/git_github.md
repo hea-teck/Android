@@ -189,7 +189,7 @@ div.polaroid {
 			<img src="figure/github-sync-result.png">
 		</div>
  
-
+<a name="2.4"></a>
 ### 라 . 원격 **GitHub** 저장소의 최신 내용을  지역 **git** 저장소로 가져오기
 1. **[GitHub Desktop]**의 **Fetch origin**을 클릭
 	<div class="polaroid">
