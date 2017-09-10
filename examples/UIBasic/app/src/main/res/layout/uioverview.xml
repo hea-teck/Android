@@ -15,30 +15,30 @@
         android:orientation="vertical">
 
         <TextView
+            android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="0dp"
-            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_weight="1"
+            android:paddingTop="10dp"
             android:text="Large Text1"
-            android:id="@+id/textView"
-            android:paddingTop="10dp"
-            android:layout_weight="1" />
+            android:textAppearance="@android:style/TextAppearance.Material.Large" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Large Text 2"
             android:id="@+id/textView2"
-            android:paddingTop="10dp" />
-
-        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Large Text3"
-            android:id="@+id/textView3"
             android:paddingTop="10dp"
-            android:paddingBottom="10dp" />
+            android:text="Large Text 2"
+            android:textAppearance="@android:style/TextAppearance.Material.Large" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="Large Text3"
+            android:textAppearance="@android:style/TextAppearance.Material.Large" />
     </LinearLayout>
 
     <Button
@@ -58,4 +58,5 @@
         android:layout_below="@+id/linearLayout"
         android:layout_alignRight="@+id/linearLayout"
         android:layout_alignEnd="@+id/linearLayout" />
+
 </RelativeLayout>
