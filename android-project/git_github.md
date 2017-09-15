@@ -193,11 +193,11 @@ div.polaroid {
 ### 라 . 원격 **GitHub** 저장소의 최신 내용을  지역 **git** 저장소로 가져오기
 1. **[GitHub Desktop]**의 **Fetch origin**을 클릭
 	<div class="polaroid">
-			<img src="figure/fetch-origin.png">
+			<img src="figure/fetch-origin.PNG">
 		</div>
 
 2. 만약 원격 **GitHub** 저장소에서 지역 **git** 저장소로 가져올 커밋이 존재한다면, **Pull origin**을 클릭하여 원격 **GitHub** 저장소의  커밋을 가져온다.
 	<div class="polaroid">
-			<img src="figure/pull-origin.png">
+			<img src="figure/pull-origin.PNG">
 		</div>
 
