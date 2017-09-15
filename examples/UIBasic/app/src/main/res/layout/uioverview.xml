@@ -21,7 +21,7 @@
             android:layout_weight="1"
             android:paddingTop="10dp"
             android:text="Large Text1"
-            android:textAppearance="@android:style/TextAppearance.Material.Large" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
         <TextView
             android:id="@+id/textView2"
@@ -29,7 +29,7 @@
             android:layout_height="wrap_content"
             android:paddingTop="10dp"
             android:text="Large Text 2"
-            android:textAppearance="@android:style/TextAppearance.Material.Large" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
         <TextView
             android:id="@+id/textView3"
@@ -38,17 +38,17 @@
             android:paddingBottom="10dp"
             android:paddingTop="10dp"
             android:text="Large Text3"
-            android:textAppearance="@android:style/TextAppearance.Material.Large" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
     </LinearLayout>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="OK"
-        android:id="@+id/button"
+        android:id="@+id/button1"
         android:layout_below="@+id/linearLayout"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+         />
 
     <Button
         android:layout_width="wrap_content"
@@ -56,7 +56,7 @@
         android:text="Cancel"
         android:id="@+id/button2"
         android:layout_below="@+id/linearLayout"
-        android:layout_alignRight="@+id/linearLayout"
-        android:layout_alignEnd="@+id/linearLayout" />
+        android:layout_alignParentRight="true"
+        />
 
 </RelativeLayout>

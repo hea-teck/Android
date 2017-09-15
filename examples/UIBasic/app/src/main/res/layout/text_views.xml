@@ -12,14 +12,14 @@
         android:layout_height="wrap_content"
         android:text="Name"
         android:textColor="@color/colorAccent"
-        android:textSize="16dp"
+        android:textSize="16sp"
         android:typeface="serif"
         android:textStyle="bold"
         />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="16dp"
+        android:textSize="16sp"
         android:textColor="@color/colorPrimary"
         android:textStyle="italic"
         android:inputType="text|textCapWords|textNoSuggestions"/>

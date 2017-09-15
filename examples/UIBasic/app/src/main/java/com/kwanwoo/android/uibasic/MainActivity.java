@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-   /* public void b1OnClick(View v) {
+   /* public void OnClickB1(View v) {
         Toast.makeText(getApplicationContext(), R.string.button_clicked_msg,
                 Toast.LENGTH_SHORT).show();
     }
